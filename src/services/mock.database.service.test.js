@@ -6,7 +6,7 @@ const MockDatabaseService = require("./class.mock.database.service");
 
 describe('Test Database methods', () => {
     let db = new MockDatabaseService();
-    db.populate();
+    // db.populate();
     let eventId;
     let eventsLength;
     beforeEach(async function(){
